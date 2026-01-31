@@ -36,8 +36,8 @@ export interface SpotifyPlaylist {
 
 class SpotifyService {
   // Demo credentials - Replace with your actual Spotify app credentials
-  private clientId: string = '3e7d942ae3c34b7d985cd97141da9b46';
-  private clientSecret: string = 'dfc0e508489a4f3d9571eda2d154ba55';
+  private clientId: string = 'YOUR_ACTUAL_CLIENT_ID_HERE';
+  private clientSecret: string = 'YOUR_ACTUAL_CLIENT_SECRET_HERE';
   private accessToken: string | null = null;
   private currentSound: Audio.Sound | null = null;
   private userProfile: any = null;
