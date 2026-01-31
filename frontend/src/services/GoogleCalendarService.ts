@@ -22,10 +22,10 @@ export interface CalendarEvent {
 
 class GoogleCalendarService {
   // Demo credentials - Replace with your actual Google Calendar API credentials
-  private accessToken: string | null = 'ya29.a0ATi6K2tYssTI4AYIkt6HGQw2RAZ3E2ff_69fob4O507JBURUI6_1pAO8oI62G1dtqXkYwO13FhNmtSFh2mNIzCJMkvUP2c8unyWBvPtUFyEeklF0K2TJbbVPNgBY62tFStkpjWVgL4cyjd56R8yg-VwnMqthHaUlGxLUO7yrh6P3a7nsrKwRBTlAykaMGqWnLjYnfykaCgYKAU8SARMSFQHGX2Miz_ZV1VtwegoygMHnkveQJA0206';
+  private accessToken: string | null = 'YOUR_ACCESS_TOKEN_HERE';
   private refreshToken: string | null = null;
-  private clientId: string = '407408718192.apps.googleusercontent.com';
-  private clientSecret: string = '************&scope=&grant_type=authorization_code';
+  private clientId: string = 'YOUR_CLIENT_ID_HERE';
+  private clientSecret: string = 'YOUR_CLIENT_SECRET_HERE';
 
   // Legacy methods for backward compatibility
   setCredentials(clientId: string, clientSecret: string) {
